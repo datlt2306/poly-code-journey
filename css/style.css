@@ -6615,6 +6615,9 @@ body.home-two.dark-view h6 {
 body.home-two.dark-view .scroll-to-top {
     background: #48dca8;
 }
+body.home-custom.dark-view .scroll-to-top{
+    background: #f27025
+}
 
 body.home-two.dark-view .header-two .main-menu .navigation > li > a {
     color: #ffffff;
@@ -12585,6 +12588,9 @@ body.home-six .scroll-to-top {
     height: 2px;
     background: #6ce1f5;
 }
+.roadmap-five-custom .carousel-box:after{
+    background: #1d5fef;
+}
 
 .roadmap-block-five {
     position: relative;
@@ -12625,7 +12631,9 @@ body.home-six .scroll-to-top {
     width: 240px;
     background: #6ce1f5;
 }
-
+.roadmap-block-five-custom.checked:before{
+    background: #1d5fef;
+}
 .roadmap-block-five .radio-icon {
     position: absolute;
     left: 50%;
@@ -12642,7 +12650,9 @@ body.home-six .scroll-to-top {
 .roadmap-block-five.checked .radio-icon {
     border-color: #6ce1f5;
 }
-
+.roadmap-block-five-custom.checked .radio-icon{
+    border-color: #1d5fef;
+}
 .roadmap-block-five .radio-icon:before {
     content: "";
     position: absolute;
@@ -12657,11 +12667,15 @@ body.home-six .scroll-to-top {
 .roadmap-block-five.checked .radio-icon:before {
     background: #6ce1f5;
 }
-
+.roadmap-block-five-custom.checked .radio-icon:before {
+    background: #1d5fef;
+}
 .roadmap-block-five:hover .radio-icon:before {
     background: #1d5fef;
 }
-
+.roadmap-block-five-custom:hover .radio-icon:before{
+    background: #f27025;
+}
 .roadmap-block-five .inner-box .date {
     position: absolute;
     left: 0;
@@ -12730,7 +12744,9 @@ body.home-six .scroll-to-top {
 .roadmap-block-five .inner-box:hover .lower-box {
     background: #1d5fef;
 }
-
+.roadmap-block-five-custom .inner-box:hover .lower-box{
+    background: #f27025
+}
 .roadmap-block-five .text {
     position: relative;
     color: #ffffff;
