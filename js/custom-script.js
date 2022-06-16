@@ -91,7 +91,7 @@
 		$('.time-countdown').each(function() {
 		var $this = $(this), finalDate = $(this).data('countdown');
 		$this.countdown(finalDate, function(event) {
-			var $this = $(this).html(event.strftime('' + '<div class="counter-column days"><span class="count">%D</span><span class="period">Days</span></div> ' + '<div class="counter-column hours"><span class="count">%H</span><span class="period">Hours</span></div>  ' + '<div class="counter-column minutes"><span class="count">%M</span><span class="period">Minutes</span></div>  ' + '<div class="counter-column seconds"><span class="count">%S</span><span class="period">Seconds</span></div>'));
+			var $this = $(this).html(event.strftime('' + '<div class="counter-column days"><span class="count">%D</span><span class="period">Ngày</span></div> ' + '<div class="counter-column hours"><span class="count">%H</span><span class="period">Giờ</span></div>  ' + '<div class="counter-column minutes"><span class="count">%M</span><span class="period">Phút</span></div>  ' + '<div class="counter-column seconds"><span class="count">%S</span><span class="period">Giây</span></div>'));
 		});
 	 });
 	}
@@ -101,7 +101,7 @@
 		$('.time-countdown-two').each(function() {
 		var $this = $(this), finalDate = $(this).data('countdown');
 		$this.countdown(finalDate, function(event) {
-			var $this = $(this).html(event.strftime('' + '<div class="counter-column days"><span class="period">Days</span><span class="count">%D</span></div> ' + '<div class="counter-column hours"><span class="period">Hours</span><span class="count">%H</span></div>  ' + '<div class="counter-column minutes"><span class="period">Minutes</span><span class="count">%M</span></div>  ' + '<div class="counter-column seconds"><span class="period">Seconds</span><span class="count">%S</span></div>'));
+			var $this = $(this).html(event.strftime('' + '<div class="counter-column days"><span class="period">Ngày</span><span class="count">%D</span></div> ' + '<div class="counter-column hours"><span class="period">Giờ</span><span class="count">%H</span></div>  ' + '<div class="counter-column minutes"><span class="period">Phút</span><span class="count">%M</span></div>  ' + '<div class="counter-column seconds"><span class="period">Giây</span><span class="count">%S</span></div>'));
 		});
 	 });
 	}
