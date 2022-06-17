@@ -111,7 +111,7 @@
 		$('.how-work-carousel').bxSlider({
 			pagerCustom: '.pager-one',
 			auto:false,
-			startSlide: 1,
+			startSlide: 0,
 			infiniteLoop: false,
 			easing:'swing',
 			adaptiveHeight: true,
